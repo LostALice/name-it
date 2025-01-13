@@ -85,11 +85,6 @@ export function QuestionInput() {
         }
     };
 
-    function copyText(text: string) {
-        navigator.clipboard.writeText(text)
-    }
-
-
     return (
         <div className="min-h-screen flex">
             <div className="flex flex-col items-center w-full mt-[40vh] gap-16">
