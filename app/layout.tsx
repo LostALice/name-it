@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/app/components/theme/themeSwitch"
 import type { Metadata } from "next";
+import { Head } from "./head";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-      >
+      <Head />
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
