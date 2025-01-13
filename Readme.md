@@ -1,1 +1,6 @@
-# Demo of using github model, action and pages
+| Demo of using github model, action and pages
+
+# Name it
+## a website for naming variables, functions and more
+
+> Try it:[Name](https://lostalice.github.io/name-it/)
